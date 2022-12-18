@@ -8,4 +8,4 @@ Patches to fix old Broadcom and Atheros wireless cards support for MacOS Ventura
    - wps - 12.6.2 - /usr/libexec
    - CoreWLAN - 12.6.2 - /System/Library/Frameworks/CoreWLAN.framework
    - CoreWiFi - 12.6.2 - /System/Library/PrivateFrameworks/CoreWiFi.framework
-   - Apple80211 12.6.2 (renamed to IO80211 on Ventura) - /System/Library/PrivateFrameworks/Apple80211.framework
+   - Apple80211 - 12.6.2 (renamed to IO80211 on Ventura) - /System/Library/PrivateFrameworks/Apple80211.framework
