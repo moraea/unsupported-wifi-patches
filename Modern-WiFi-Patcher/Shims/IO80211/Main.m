@@ -19,8 +19,7 @@ void load()
 	if([NSProcessInfo.processInfo.arguments[0] containsString:@"airportd"])
 	{
 		add(NSClassFromString(@"WiFiUsageMonitor"),@"startMonitoringWiFiInterface:",(IMP)fake,"@@:@@");
+		add(NSClassFromString(@"WiFiUsageMonitor"),@"setScanningState:client:neighborBSS:otherBSS:withChannelInfoList:forInterface:",(IMP)fake,"@@:@@");
 		add(NSClassFromString(@"WAClient"),@"setConfigChangedDelegate:forGroupType:andReply:",(IMP)fake,"@@:@@");
-		add(NSClassFromString(@"CWFNetworkProfile"),@"scanRecord",(IMP)fake,"@@:@@");
-		add(NSClassFromString(@"CWFNetworkProfile"),@"matchingKnownNetworkProfile",(IMP)fake,"@@:@@");
 	}
 }
