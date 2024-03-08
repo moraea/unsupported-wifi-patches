@@ -14,9 +14,9 @@ Patches to fix old wireless cards support for MacOS Ventura/Sonoma
 
 ## Modern WiFi Sources
 
-   - airportd - MacOS Ventura 13.6.2 - /usr/libexec || patched airportd for Sonoma 14.4+ only
-   - wifip2pd - MacOS Ventura 13.6.2 - /usr/libexec
-   - CoreWLAN - MacOS Ventura 13.6.2 - /System/Library/Frameworks/CoreWLAN.framework
-   - CoreWiFi - MacOS Ventura 13.6.2 - /System/Library/PrivateFrameworks/CoreWiFi.framework
-   - IO80211 - MacOS Ventura 13.6.2 - /System/Library/PrivateFrameworks/IO80211.framework
-   - WiFiPeerToPeer - MacOS Ventura 13.6.2 - /System/Library/PrivateFrameworks/WiFiPeerToPeer.framework
+   - airportd - MacOS Ventura 13.6.5 - /usr/libexec
+   - wifip2pd - MacOS Ventura 13.6.5 - /usr/libexec
+   - CoreWLAN - MacOS Ventura 13.6.5 - /System/Library/Frameworks/CoreWLAN.framework
+   - CoreWiFi - MacOS Ventura 13.6.5 - /System/Library/PrivateFrameworks/CoreWiFi.framework
+   - IO80211 - MacOS Ventura 13.6.5 - /System/Library/PrivateFrameworks/IO80211.framework
+   - WiFiPeerToPeer - MacOS Ventura 13.6.5 - /System/Library/PrivateFrameworks/WiFiPeerToPeer.framework

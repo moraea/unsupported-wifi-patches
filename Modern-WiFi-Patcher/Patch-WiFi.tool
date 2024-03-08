@@ -1,8 +1,5 @@
 #!/bin/zsh
 
-# standalone Stubber build script for EduCovas
-# edit the last line to reflect the two input paths and the final install path
-
 set -e
 
 export code="$(dirname "$0")"
@@ -55,14 +52,7 @@ function build
 	codesign -f -s - "$mainOut"
 }
 
-#modern wifi
-
-build "IO80211_1362" "IO80211_144" "/System/Library/PrivateFrameworks/IO80211.framework/Versions/A/IO80211"
-build "CoreWLAN_1362" "CoreWLAN_144" "/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN" "CoreWLAN_144.json"
-build "WiFiPeerToPeer_1362" "WiFiPeerToPeer_144" "/System/Library/PrivateFrameworks/WiFiPeerToPeer.framework/Versions/A/WiFiPeerToPeer"
-build "CoreWiFi_1362" "CoreWiFi_144" "/System/Library/PrivateFrameworks/CoreWiFi.framework/Versions/A/CoreWiFi" "CoreWiFi_144.json"
-
-cp "airportd" "$prefixOut" 
-./Binpatcher $prefixOut/airportd $prefixOut/airportd 'set 0x7ac22
-nop 0x5'
-codesign -fs - $prefixOut/airportd
+build "IO80211_1365" "IO80211_144" "/System/Library/PrivateFrameworks/IO80211.framework/Versions/A/IO80211"
+build "CoreWLAN_1365" "CoreWLAN_144" "/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN" "CoreWLAN_144.json"
+build "WiFiPeerToPeer_1365" "WiFiPeerToPeer_144" "/System/Library/PrivateFrameworks/WiFiPeerToPeer.framework/Versions/A/WiFiPeerToPeer"
+build "CoreWiFi_1365" "CoreWiFi_144" "/System/Library/PrivateFrameworks/CoreWiFi.framework/Versions/A/CoreWiFi" "CoreWiFi_144.json"
