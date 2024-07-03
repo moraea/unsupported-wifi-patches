@@ -1,5 +1,5 @@
 # unsupported-wifi-patches
-Patches to fix old wireless cards support for MacOS Ventura/Sonoma
+Patches to fix old wireless cards support for MacOS Ventura - Sequoia
 
 ## Legacy WiFi Sources
 
@@ -20,3 +20,4 @@ Patches to fix old wireless cards support for MacOS Ventura/Sonoma
    - CoreWiFi - MacOS Ventura 13.6.5 - /System/Library/PrivateFrameworks/CoreWiFi.framework
    - IO80211 - MacOS Ventura 13.6.5 - /System/Library/PrivateFrameworks/IO80211.framework
    - WiFiPeerToPeer - MacOS Ventura 13.6.5 - /System/Library/PrivateFrameworks/WiFiPeerToPeer.framework
+   - WiFiAgent.app - MacOS Sonoma 14.5 - /System/Library/CoreServices || 15.0+ only
