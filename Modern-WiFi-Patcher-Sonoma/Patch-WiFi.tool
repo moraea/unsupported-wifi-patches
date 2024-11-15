@@ -52,7 +52,7 @@ function build
 	codesign -f -s - "$mainOut"
 }
 
-build "IO80211_1365" "IO80211_144" "/System/Library/PrivateFrameworks/IO80211.framework/Versions/A/IO80211"
-build "CoreWLAN_1365" "CoreWLAN_144" "/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN" "CoreWLAN_144.json"
-build "WiFiPeerToPeer_1365" "WiFiPeerToPeer_144" "/System/Library/PrivateFrameworks/WiFiPeerToPeer.framework/Versions/A/WiFiPeerToPeer"
-build "CoreWiFi_1365" "CoreWiFi_144" "/System/Library/PrivateFrameworks/CoreWiFi.framework/Versions/A/CoreWiFi" "CoreWiFi_144.json"
+build "IO80211_1372" "IO80211_1472" "/System/Library/PrivateFrameworks/IO80211.framework/Versions/A/IO80211"
+build "CoreWLAN_1372" "CoreWLAN_1472" "/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN" "CoreWLAN_1472.json"
+build "WiFiPeerToPeer_1372" "WiFiPeerToPeer_1472" "/System/Library/PrivateFrameworks/WiFiPeerToPeer.framework/Versions/A/WiFiPeerToPeer"
+build "CoreWiFi_1372" "CoreWiFi_1472" "/System/Library/PrivateFrameworks/CoreWiFi.framework/Versions/A/CoreWiFi" "CoreWiFi_1472.json"

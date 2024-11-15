@@ -57,10 +57,10 @@ function build
 
 #modern wifi
 
-build "IO80211_1272" "IO80211_15" "/System/Library/PrivateFrameworks/IO80211.framework/Versions/A/IO80211"
-build "CoreWLAN_1272" "CoreWLAN_15" "/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN" "CoreWLAN_15.json"
-build "WiFiPeerToPeer_1272" "WiFiPeerToPeer_15" "/System/Library/PrivateFrameworks/WiFiPeerToPeer.framework/Versions/A/WiFiPeerToPeer"
-build "CoreWiFi_1272" "CoreWiFi_15" "/System/Library/PrivateFrameworks/CoreWiFi.framework/Versions/A/CoreWiFi" "CoreWiFi_15.json"
+build "IO80211_1276" "IO80211_152" "/System/Library/PrivateFrameworks/IO80211.framework/Versions/A/IO80211"
+build "CoreWLAN_1276" "CoreWLAN_152" "/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN" "CoreWLAN_152.json"
+build "WiFiPeerToPeer_1276" "WiFiPeerToPeer_152" "/System/Library/PrivateFrameworks/WiFiPeerToPeer.framework/Versions/A/WiFiPeerToPeer"
+build "CoreWiFi_1276" "CoreWiFi_152" "/System/Library/PrivateFrameworks/CoreWiFi.framework/Versions/A/CoreWiFi" "CoreWiFi_152.json"
 
 cp "airportd" "$prefixOut" 
 ./Binpatcher $prefixOut/airportd $prefixOut/airportd 'set 0x6c758
